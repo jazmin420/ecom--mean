@@ -1,0 +1,31 @@
+<nav style="z-index: 10;" class="navbar navbar-expand-lg bg-body-tertiary position-fixed top-0 w-100">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bolder fst-italic" routerLink=''>
+      <i class="fa-solid fa-crown"></i>
+      Style Yourself</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <input type="text" placeholder="search here..." class="form-control">
+        </li>
+      </ul>
+      <div class="d-flex">
+        <button class="btn btn-outline-success">
+          <i class="fa-solid fa-heart"></i>
+          Wishlist
+          <span class="badge text-bg-secondary">4</span>
+        </button>
+        <button class="btn btn-outline-success mx-4">cart
+          <span class="badge text-bg-secondary">4</span>
+        </button>
+        <a routerLink="login" class="btn btn-success">
+          <i class="fa-solid fa-user"></i>
+          login
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
